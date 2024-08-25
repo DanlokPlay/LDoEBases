@@ -121,6 +121,20 @@
             height: auto;
             margin-top: 20px;
         }
+        .marketplace-links {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .marketplace-links img {
+            width: 150px;
+            height: auto;
+            margin: 0 10px;
+            transition: transform 0.3s;
+        }
+        .marketplace-links img:hover {
+            transform: scale(1.1);
+        }
     </style>
 
     <!-- Yandex.Metrika counter -->
@@ -149,28 +163,51 @@
 </header>
 
 <section class="download-section">
-    <h2>Скачать актуальную версию 1.1</h2>
-    <a href="https://drive.google.com/uc?export=download&id=1A4I9q0gXBQRJjlQNHdTQWB7peGzylRsR" class="download-button">
+    <h2>Скачать актуальную версию 1.2</h2>
+    <a href="https://drive.usercontent.google.com/download?id=1Ctoo-SU_oqVZK1G6sSfHB_O347-0qGMl" class="download-button">
         Скачать
     </a>
     <div class="download-info">
         <p><strong>Версия Android:</strong> с 5.1</p>
-        <p><strong>Размер:</strong> 138,5 МБ</p>
+        <p><strong>Размер:</strong> 136,6 МБ</p>
         <p><strong>site_thx</strong> - Вот ещё код на 10 баллов))0)</p>
     </div>
     <div class="changelog">
-        <h4>Изменения в версии 1.1:</h4>
+        <h4>Изменения в версии 1.2:</h4>
         <ul>
-            <li>Исправлено отображение Лута в Пикапе</li>
-            <li>Добавлена полоска прочности у оружия и показатель текущей из максимальной прочности оружия</li>
-            <li>При выходе возвращается к выбору файла, а не на стартовый экран</li>
-            <li>При прокрутке лута в ящиках экран не передвигается</li>
+            <li>Добавлено отображение собранных генераторов</li>
+            <li>Добавлен чоппер</li>
+            <li>Добавлены недостающие спрайты</li>
+            <li>Добавлены недостающие переводы</li>
+            <li>Улучшение визуализации</li>
+            <li>Исправлено отображение прочности оружия, если есть модификации на нём</li>
+            <li>Убраны ПОЛНОСТЬЮ повторяющиеся базы</li>
+            <li>Раздел Поддержка</li>
         </ul>
     </div>
 </section>
 
 <section class="previous-versions">
     <h3>Скачать прошлые версии:</h3>
+
+    <div class="version">
+        <a href="https://drive.google.com/uc?export=download&id=1A4I9q0gXBQRJjlQNHdTQWB7peGzylRsR" class="download-link">
+            Базы LDoE 1.1
+        </a>
+        <div class="version-info">
+            <p>Версия Android: с 5.1</p>
+            <p>Вес: 138,5 МБ</p>
+        </div>
+        <div class="changelog">
+            <h4>Изменения в версии 1.1:</h4>
+            <ul>
+                <li>Исправлено отображение Лута в Пикапе</li>
+                <li>Добавлена полоска прочности у оружия и показатель текущей из максимальной прочности оружия</li>
+                <li>При выходе возвращается к выбору файла, а не на стартовый экран</li>
+                <li>При прокрутке лута в ящиках экран не передвигается</li>
+            </ul>
+        </div>
+    </div>
     
     <div class="version">
         <a href="https://drive.google.com/uc?export=download&id=198w7KK4OUnWtqXhvmlFLoRfLCbz0UO8L" class="download-link">
@@ -210,6 +247,16 @@
     <!-- Добавьте сюда другие версии, если они есть -->
 
 </section>
+
+<!-- Блок с изображениями маркетплейсов -->
+<div class="marketplace-links">
+    <a href="https://appgallery.huawei.ru/app/C111738085">
+        <img src="AppGallery.png" alt="AppGallery">
+    </a>
+    <a href="https://www.rustore.ru/catalog/app/com.DanlokPlay.LDoEBases">
+        <img src="RuStore.png" alt="RuStore">
+    </a>
+</div>
 
 <footer>
     <p><a href="privacy.html">Политика конфиденциальности</a></p>
